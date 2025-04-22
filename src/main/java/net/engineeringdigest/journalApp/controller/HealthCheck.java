@@ -1,4 +1,4 @@
-package com.JournalNest.JournalNest.controller;
+package net.engineeringdigest.journalApp.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +8,6 @@ public class HealthCheck {
 
     @GetMapping("/healthCheck")
     public String healthCheck(){
-        return "OK";
+        return "ok";
     }
 }

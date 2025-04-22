@@ -1,4 +1,4 @@
-package com.JournalNest.JournalNest.entity;
+package net.engineeringdigest.journalApp.entity;
 
 import lombok.Data;
 import org.bson.types.ObjectId;
@@ -12,7 +12,10 @@ import java.time.LocalDateTime;
 public class JournalEntry {
     @Id
     private ObjectId id;
+
     private String title;
+
     private String content;
+
     private LocalDateTime date;
 }
